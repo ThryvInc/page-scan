@@ -2,11 +2,9 @@ use_frameworks!
 
 target 'PageScan_Example' do
   pod 'PageScan', :path => '../'
+  pod 'ReactiveSwift'
 
   target 'PageScan_Tests' do
     inherit! :search_paths
-
-    pod 'Quick', '~> 1.2.0'
-    pod 'Nimble', '~> 7.0'
   end
 end

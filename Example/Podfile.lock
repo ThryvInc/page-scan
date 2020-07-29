@@ -1,0 +1,24 @@
+PODS:
+  - PageScan (0.1.0):
+    - ReactiveSwift
+  - ReactiveSwift (6.3.0)
+
+DEPENDENCIES:
+  - PageScan (from `../`)
+  - ReactiveSwift
+
+SPEC REPOS:
+  trunk:
+    - ReactiveSwift
+
+EXTERNAL SOURCES:
+  PageScan:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PageScan: f359bb72832b3c490f92f53aec72403cfd3fc56f
+  ReactiveSwift: 7937f26ec18d555e2a99352bd0a8b2817d1f042d
+
+PODFILE CHECKSUM: 0d79541077350b257940dae52d5dc1b6319f5377
+
+COCOAPODS: 1.9.0

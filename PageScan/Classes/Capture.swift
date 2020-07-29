@@ -33,6 +33,8 @@ open class Capture {
                 return connection.inputPorts.contains(where: { $0.mediaType == .video })
             })
     }
+    
+    public init() {}
 
     open func setUp(with cameraView: CameraPreview?) {
         cameraView?.session = session

@@ -10,6 +10,7 @@ Pod::Spec.new do |s|
   s.name             = 'PageScan'
   s.version          = '0.0.1'
   s.summary          = 'PageScan gives you the tools to easily scan a piece of paper.'
+  s.swift_versions   = ['4.2', '5.0', '5.1']
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?

@@ -61,7 +61,7 @@ public extension CIImage {
     }
     
     func filterImageUsingContrastFilter() -> CIImage? {
-        guard let imageFiltered: CIFilter = CIFilter(name: kCIColorControls, withInputParameters:
+        guard let imageFiltered: CIFilter = CIFilter(name: kCIColorControls, parameters:
             [
                 kCIInputImageKey: self,
                 kCIInputContrastKey: 1.4,
